@@ -4,7 +4,7 @@ html(lang="en")
     meta(charset="utf-8")
     title Homework 5, CSC 305 Database Design, Fall 2025
     style.
-      /* Required elements */
+      /* Indicate equired elements */
       .flag { color: firebrick; }
 
       /* The required flag starts out as a red asterisk. */
@@ -14,8 +14,8 @@ html(lang="en")
       }
 
       /* Change the red * to a green check once the control has been filled in.  
-         The ~ is for selecting siblings without requiring that they be right 
-         next to each other. */
+        The ~ is for selecting siblings without requiring that they be right 
+        next to each other. */
       :required:valid ~ .flag::before, .flag.valid::before {
         content: '✓';
         color: green;
